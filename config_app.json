@@ -1,6 +1,6 @@
 {
     "db": "mysql:host=localhost",
-    "db_name": "mysql:dbname=bookstore;host=localhost",
+    "dsn": "mysql:dbname=bookstore;host=localhost",
     "host": "host=localhost",
     "user": "root",
     "password": ""
