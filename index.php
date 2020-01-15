@@ -4,6 +4,5 @@ spl_autoload_register(function ($clase) {
 });
 use lib\Connection\Connection;
 
-$a = Connection::getInstance();
-$b = Connection::getInstance();
-$c = Connection::getInstance();
+$con = Connection::getInstance();
+var_dump($con);
